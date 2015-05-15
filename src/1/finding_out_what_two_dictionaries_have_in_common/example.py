@@ -14,7 +14,6 @@ b = {
    'y' : 2
 }
 
-print('Common keys:', a.keys() & b.keys())
-print('Keys in a not in b:', a.keys() - b.keys())
-print('(key,value) pairs in common:', a.items() & b.items())
-
+print 'Common keys:', a.keys() & b.keys()
+print 'Keys in a not in b:', a.keys() - b.keys()
+print '(key,value) pairs in common:', a.items() & b.items()
